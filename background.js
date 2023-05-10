@@ -249,9 +249,6 @@ let specifics = {
     "Stripe Webhook Secret": "whsec_[0-9a-zA-Z]{24}",
     "Telegram Bot API Key": "[0-9]+:AA[0-9A-Za-z\\-_]{33}",
     "Twilio API Key": "SK[0-9a-fA-F]{32}",
-    "Twitter Access Token": "[tT][wW][iI][tT][tT][eE][rR].*[1-9][0-9]+-[0-9a-zA-Z]{40}",
-    "Twitter OAuth 2": "[tT][wW][iI][tT][tT][eE][rR].*['"][0-9a-zA-Z]{35,44}['"]",
-    "Twitter OAuth": "[tT][wW][iI][tT][tT][eE][rR].*['|\"][0-9a-zA-Z]{35,44}['|\"]",
     "VirusTotal": "virustotal[_-]?apikey(=| =|:| :)"             
 }
 
