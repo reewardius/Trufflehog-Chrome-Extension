@@ -164,6 +164,8 @@ let specifics = {
     "STAGING": "(staging|STAGING)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
     "STG": "(stg|STG)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
     "STOREPASSWORD": "(storePassword|STOREPASSWORD)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
+    "SSH ADDRESS": "ssh_address",
+    "SSH Port": "ssh_port",    
     "SWAGGER": "(swagger|SWAGGER)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
     "Salesforce key": "(SF_USERNAMEsalesforce|SF_USERNAMESALESFORCE)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
     "Secret Key": "secret[_-]?0(=| =|:| :)",
