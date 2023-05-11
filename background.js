@@ -31,6 +31,7 @@ chrome.storage.sync.get(['ranOnce'], function(ranOnce) {
 
 let specifics = {
     "ACCESS_KEY": "(access_key|ACCESS_KEY)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
+    "ETH/BSC/MAINNET Token for Web3": "(?:ETH|BSC|MAINNET)_PRIVATE_KEY_[0-9a-fA-F]{64}",
     "ACCESS_TOKEN": "(access_token|ACCESS_TOKEN)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
     "AMAZONAWS": "(amazonaws|AMAZONAWS)(:|=| : | = )( |"|')[0-9A-Za-z\\-]{5,100}",
     "AMZN MWS Payment": "amzn\.mws\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
