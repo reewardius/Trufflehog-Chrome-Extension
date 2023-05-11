@@ -251,7 +251,15 @@ let specifics = {
     "Stripe Webhook Secret": "whsec_[0-9a-zA-Z]{24}",
     "Telegram Bot API Key": "[0-9]+:AA[0-9A-Za-z\\-_]{33}",
     "Twilio API Key": "SK[0-9a-fA-F]{32}",
-    "VirusTotal": "virustotal[_-]?apikey(=| =|:| :)"             
+    "VirusTotal": "virustotal[_-]?apikey(=| =|:| :)",
+    "NPM_API_KEY": "[a-zA-Z0-9_-]+",
+    "NPM_API_TOKEN": "[a-zA-Z0-9_-]+",
+    "NPM_AUTH_TOKEN": "[a-zA-Z0-9_-]+",
+    "NPM_CONFIG_AUDIT": "(true|false)",
+    "NPM_CONFIG_STRICT_SSL": "(true|false)",
+    "NPM_EMAIL": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}",
+    "NPM_PASSWORD": "[^\\s]+",
+    "NPM_SECRET_KEY": "[a-zA-Z0-9_-]+"
 }
 
 let generics = {
